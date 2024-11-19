@@ -1,1 +1,162 @@
+body {
+    font-family: sans-serif;
+    background: #C0C0C0;
+    margin: 0;
+}
 
+.site-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 10%;
+    background:	#5A4F4F;
+}
+
+.header-tools {
+    display: flex;
+    flex-direction: row;
+    width: 350px;
+    gap: 20px;
+    list-style: none;
+    font-size: 15px;
+}
+
+.catalog {
+    display: inline-flex;
+
+    width: 140px;
+    height: 40px;
+
+    justify-content: center;
+    align-items: center;
+
+    background: #ccc;
+    border-radius: 10px;
+
+    gap: 25px;
+}
+
+.favourite {
+    display: flex;
+    flex-direction: column;
+}
+.favourite svg {
+    position: relative;
+    left: 20px;
+    bottom: 8px;
+}
+.orders {
+    display: flex;
+    flex-direction: column;
+}
+
+.orders svg {
+    position: relative;
+    left: 10px;
+    bottom: 8px;
+}
+
+.basket {
+    display: flex;
+    flex-direction: column;
+    
+    position: relative;
+    bottom: 3px;
+}
+
+.basket svg {
+    position: relative;
+    left: 10px;
+    bottom: 6px;
+}
+
+.authorization {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 140px;
+    height: 40px;
+    
+    border-radius: 10px;
+    background: #ccc;
+
+    gap: 50px;
+}
+.sr-only {
+    position: absolute;
+
+    width: 1px;
+    height: 1px;
+    padding: 0;
+
+    overflow: hidden;
+
+    white-space: nowrap;
+
+    border: 0;
+} 
+
+input[type="text"] {
+    display: flex;
+    width: 436px;
+    height: 40px;
+
+    background: #ccc;
+}
+
+.search-bar svg {
+    position: absolute;
+    left: 1090px;
+    bottom: 945px;
+}
+
+.search {
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.site-main p {
+    font-size: 200px;
+}
+
+.lists-inf {
+    display: inline-flex;
+    flex-direction: row;
+    margin-right: 400px;
+
+    gap: 40px;
+
+    list-style: none;
+}
+
+.contacts {
+    display: inline-flex;
+    flex-direction: row;
+
+    margin-right: 133px;
+
+    gap: 16px;
+
+    list-style: none;
+}
+
+
+.site-footer {
+    display: flex;
+    flex-direction: row;
+
+    border-top: 1px solid black;
+
+    height: 126px;
+
+    background: #C0C0C0;
+}
+
+.other-contacts {
+    position: relative;
+    top: 15px;
+}
